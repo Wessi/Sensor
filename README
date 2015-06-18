@@ -1,11 +1,9 @@
 # Requirements:
-	-Includes all the requirements needed for OpenNI
-	-OpenNI from (https://github.com/Wessi/OpenNI) to be installed.
+	-Needs OpenNI to be installed.
+	-Needs Sensor to be installed.
 	
-# Building Sensor:
-	cd Sensor/Platform/Linux/CreateRedist/
-	chmod +x RedistMaker
-	./RedistMaker
-	cd ../Redist/Sensor-Bin-Linux-x64-v5.1.2.1/
+# Building OpenNI:
+	cd NiTE
 	sudo ./install.sh
+
 	
